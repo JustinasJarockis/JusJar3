@@ -20,6 +20,7 @@ public class Enemy : MonoBehaviour
             GetNextWayPoint();
         }
     }
+    //123
     void GetNextWayPoint()
     {
         if (wavepointIndex >= Waypoints.points.Length - 1)
